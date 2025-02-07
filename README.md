@@ -1,0 +1,3 @@
+# Unexpected NaN with undefined in Javascript Function
+
+This repository demonstrates a subtle bug in JavaScript function handling of null and undefined values. The function is intended to gracefully handle null input by returning 0, however, it unexpectedly returns NaN when given undefined input. This highlights the difference between null and undefined in JavaScript, and their interaction with loose equality (==).
